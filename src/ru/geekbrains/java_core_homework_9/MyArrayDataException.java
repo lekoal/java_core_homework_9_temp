@@ -1,7 +1,8 @@
 package ru.geekbrains.java_core_homework_9;
 
-public class MyArrayDataException extends NumberFormatException {
-    public MyArrayDataException(String message) {
-        System.out.println(message);
+public class MyArrayDataException extends Exception {
+
+    public void message() {
+        System.out.println("Cant convert symbol to int");
     }
 }
