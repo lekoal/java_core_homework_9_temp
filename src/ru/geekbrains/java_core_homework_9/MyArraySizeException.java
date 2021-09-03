@@ -4,5 +4,6 @@ public class MyArraySizeException extends Exception {
 
     public void message() {
         System.out.println("Array size must be 4x4!");
+        System.out.println("Program is closing");
     }
 }

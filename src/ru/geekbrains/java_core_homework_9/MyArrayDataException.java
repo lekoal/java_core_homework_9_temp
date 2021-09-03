@@ -2,7 +2,7 @@ package ru.geekbrains.java_core_homework_9;
 
 public class MyArrayDataException extends Exception {
 
-    public void message() {
-        System.out.println("Cant convert symbol to int");
+    public MyArrayDataException(int x, int y) {
+        System.out.printf("Cant convert symbol to int. Error in cell: %s : %s%n", x, y);
     }
 }
